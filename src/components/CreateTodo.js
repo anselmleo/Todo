@@ -18,7 +18,7 @@ class CreateTodo extends React.Component {
     }    
   }
 
-  onChangeTodoDescription(e) {
+  onChangeTodoDescription (e) {
     this.setState({
       todo_description: e.target.value
     });
@@ -54,7 +54,7 @@ class CreateTodo extends React.Component {
 
   render() {
     return(
-      <div style={{marginTop: 10}}>
+      <div style={{marginTop: 50}}>
         <h3>Create New Todo</h3>
         <form onSubmit={this.onSubmit}>
           <div className="form-group"> 

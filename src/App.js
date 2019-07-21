@@ -4,7 +4,6 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-
 import TodoList from './components/TodoList';
 import EditTodo from './components/EditTodo';
 import CreateTodo from './components/CreateTodo';
@@ -42,13 +41,5 @@ class App extends React.Component {
     );
   }
 }
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <h1>Anselm's Todo Application</h1>
-//     </div>
-//   );
-// }
 
 export default App;
