@@ -7,7 +7,6 @@ class TodoList extends React.Component {
 
   constructor(props) {
     super(props);
-  
     this.state = {todos: []};
   }
 
@@ -30,7 +29,7 @@ class TodoList extends React.Component {
   render() {
     return(
       <div>
-        <h3>Todos List</h3>
+        <h3 className="my-5">Todos List</h3>
         <table className="table table-striped" style={{ marginTop: 20 }} >
           <thead>
             <tr>

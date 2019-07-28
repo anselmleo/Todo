@@ -66,7 +66,7 @@ class CreateTodo extends React.Component {
   render() {
     return(
       <div style={{marginTop: 50}}>
-        <h3>Create New Todo</h3>
+        <h3 className="my-5">Create New Todo</h3>
         <form onSubmit={this.onSubmit}>
           <div className="form-group"> 
             <label>Description: </label>
