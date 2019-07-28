@@ -42,7 +42,7 @@ class EditTodo extends React.Component {
 
   onChangeTodoCompleted(e) {
     this.setState({
-      todo_completed: e.target.value
+      todo_completed: !this.state.todo_completed
     });
   }
 
@@ -156,7 +156,7 @@ class EditTodo extends React.Component {
           <hr></hr>
 
           <div className="form-group">
-            <input type="submit" value="Edit Todo" className="btn btn-primary" />
+            <input type="submit" value="Update Todo" className="btn btn-primary" />
           </div>
         </form>
       </div>
